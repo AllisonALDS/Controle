@@ -3,34 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>Controle</title>
 </head>
 <body>
     <main>
         <form>
-              <legend>Controle</legend>
+              <legend>Controle de Itens</legend>
               <p>
                 <label for="size_1">Turma</label>
-                <input type="text" id="size_1" value="" placeholder="Turma" />
+                <input type="text" id="turma" value="" placeholder="Digite o número da sua turma" />
               </p>
               <p>
                 <label for="size_2">Nome</label>
-                <input type="text" id="size_2" value="" placeholder="Nome"/>
+                <input type="text" id="nome" value="" placeholder="Digite seu nome completo"/>
               </p>
               <p>
                 <label for="size_3">Posto</label>
-                <input type="text" id="size_3" value="" placeholder="Posto" />
+                <input type="text" id="size_3" value="" placeholder="Digite seu posto" />
               </p>
               <p>
                 <label for="size_3">Item</label>
-                <input type="text" id="size_3" value="" placeholder="Item" />
+                <input type="text" id="item1" value="" placeholder="Digite o item que falta" />
+              </p>
+              <p>
+                <label for="size_3">Item 2</label>
+                <input type="text" id="item2" value="" placeholder="Digite o item que falta" />
+              </p>
+              <p>
+                <label for="size_3">Item 3</label>
+                <input type="text" id="item3" value="" placeholder="Digite o item que falta" />
               </p>
               <p>
                 <label for="size_3">Descrição</label>
-                <input type="text" id="registro" value="" placeholder="Descrição"/>
+                <input type="text" id="descricao" value="" placeholder="Tem alguma anotação relevante?"/>
               </p>
-              <button>Enviar</button>
+              <button id="btn_submit">Enviar</button>
           </form>
     </main>
 </body>
