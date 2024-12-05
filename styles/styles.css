@@ -6,7 +6,7 @@
     font-family: Roboto;
 }
 body{
-    background-color: #ebf4f2;
+    background-color: #d2dbd9;
 }
 
 main{
@@ -21,37 +21,52 @@ main{
 
 form{
     width: 450px;
-    height: 600px;
+    height: 790px;
     border-radius: 25px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.253);
     gap: 40px;
 
     legend{
-        font-size: 55px;
+        font-size: 40px;
+        font-weight: 600;
     }
 
 
     P{
-        font-size: 25px;
+        font-size: 20px;
         display: flex;
         flex-direction: column;
 
         input{
             border: none;
-            background-color: #cccccc75;
+            background-color: #cccccc49;
             padding-left: 25px;
             width: 270px;
-            height: 60px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        #registro{
+            height: 140px;
         }
     }
     button{
-        width: 150px;
-        height: 50px;
+        width: 270px;
+        height: 45px;
         border: none;
+        border-radius: 25px;
         font-size: 25px;
+        color: white;
+        background-color: rgb(71, 71, 255);
+    }
+    button:hover{
+        transition: 1s all;
+        cursor: pointer;
+        color: black;
+        background-color: rgba(71, 71, 255, 0.192);
     }
 }
