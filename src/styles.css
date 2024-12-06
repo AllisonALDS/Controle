@@ -3,7 +3,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: "Roboto";
 }
 body {
     background-color: #d2dbd9;
@@ -20,16 +20,26 @@ main {
 }
 
 form {
-    width: 450px;
-    height: auto;
+    width: 1050px;
+    height: 800px;
     border-radius: 25px;
+    padding: 40px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.253);
-    gap: 40px;
+    gap: 70px;
+
+    .segurar{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+        .identificacao{
+            width: 20%;
+        }
+    }
 
     legend {
         font-size: 40px;
